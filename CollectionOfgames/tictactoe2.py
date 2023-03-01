@@ -4,7 +4,7 @@ import random
 
 screen = turtle.Screen()
 screen.setup(800,800)
-screen.title("Tic Tac Toe - PythonTurtle.Academy")
+screen.title("Tic Tac Toe - MKM12345")
 screen.setworldcoordinates(-5,-5,5,5)
 screen.bgcolor('light gray')
 screen.tracer(0,0)

@@ -41,22 +41,13 @@
 </head>
 <body>
 	<div id="shim">shim for font face</div>
-	<h1>Maintenance</h1>
-	<p style="text-align:center;">Sedang migrasi server dan upgrade engine 23:00 s/d 05:00. Mohon doanya :)</p>
+	<h1>Pacman</h1>
+	<p style="text-align:center;">Made by MKM12345.</p>
 	<div id="pacman"></div>
 
 	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"></script>
 	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
 	<script type="text/javascript">
-		/*jslint browser: true, undef: true, eqeqeq: true, nomen: true, white: true */
-/*global window: false, document: false */
-
-/*
- * fix looped audio
- * add fruits + levels
- * fix what happens when a ghost is eaten (should go back to base)
- * do proper ghost mechanics (blinky/wimpy etc)
- */
 
 var NONE        = 4,
     UP          = 3,
@@ -964,7 +955,7 @@ var PACMAN = (function () {
 
         var diff, u, i, len, nScore;
         
-        ghostPos = [];
+        ghostPos =  [];
 
         for (i = 0, len = ghosts.length; i < len; i += 1) {
             ghostPos.push(ghosts[i].move(ctx));

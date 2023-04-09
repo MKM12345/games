@@ -1,5 +1,5 @@
 # games
-A collection of varying levels of programmed (eg. beginner Coder, Professional Coder)Games, choose as you wish.
+A collection of varying levels of programmed (eg. beginner Coder, Professional Coder) games, choose as you wish.
 
 These are full and completed games, you can copy them.
 

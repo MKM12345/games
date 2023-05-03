@@ -1,4 +1,3 @@
-"""
 import turtle
 import math
 

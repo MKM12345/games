@@ -2,6 +2,7 @@ import turtle
 import time
 import random
 
+# Copyright - MKM12345
 wn = turtle.Screen()
 wn.title("TETRIS Game")
 wn.bgcolor("NavajoWhite2")
